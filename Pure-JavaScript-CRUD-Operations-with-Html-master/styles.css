@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body > table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:80%;
+}
+
+td, th {
+    border: 1px solid white;
+    border-left:1px solid black ;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: white;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: rgb(20, 187, 56);
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 187, 56);
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
+
+#footer{
+    padding: 1px 200px 1px 200px;
+    background-color: white;
+    text-align: center;
+  }
+
+  #footer .footer_div{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  #footer .footer_div_companyname{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  #footer .Copyright{
+    padding-top: 50px;
+    color: rgb(20, 187, 56);
+  }
+  
+  #footer .font-awesome-copyright{
+    margin:50px 10px 1px 10px;
+    color: rgb(20, 187, 56);
+  }
+
+  #footer span{
+  font-weight: bolder;
+}
+
+#footer span:hover{
+  text-decoration: underline;
+}
