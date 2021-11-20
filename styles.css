@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    width: 200px;
+}
+
+.column_2{
+    width: 300px;
+}
+
+img{
+    width: 150px;
+}
+
+h2{
+    margin-bottom: auto;
+}

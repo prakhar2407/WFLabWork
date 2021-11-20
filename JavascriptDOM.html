@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <table id="dynamicTable">
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+<br>
+
+<button type="button" onclick="addRow()">Add</button>
+
+
+<h1>Dynamic List</h1>
+<ul id="myList">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
+
+<input id="myText" type="text" name="" id="">
+<button onclick="addListItem()">Add</button>
+
+<script>
+function addRow() {
+  var table = document.getElementById("dynamicTable");
+  var row = table.insertRow(2);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  var cell3 = row.insertCell(2);
+  cell1.innerHTML = "Amazon";
+  cell2.innerHTML = "Tejas";
+  cell3.innerHTML = "USA"
+}
+
+function addListItem() {
+  var inputVar = document.getElementById("myText").value;
+  var node = document.createElement("LI");
+  var textnode = document.createTextNode(inputVar);
+  node.appendChild(textnode);
+  document.getElementById("myList").appendChild(node);
+}
+
+</script>
+
+</body>
+</html>

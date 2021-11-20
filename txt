@@ -1,0 +1,11 @@
+{
+   name : "The Dark Knight Rises",
+   imdb_rating : 8.4,
+   release_date : new Date("2012-07-20"),
+   genre : ["Action","Adventure"],
+   description : {
+       summary : "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+       star : ["Christian Bale", "Tom Hardy", "Anne Hathaway"],
+       directors : ["Christopher Nolan"]
+       }
+}
